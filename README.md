@@ -1,61 +1,23 @@
 # pwn.college Writeups
 
-My learning journey through pwn.college challenges.
+Learning notes from pwn.college challenges. Focus on methodology, not solutions.
 
-**Focus:** Methodology and concepts, not solutions.
+## Modules
 
----
+### Linux Luminarium (Complete)
 
-## Progress
+- [File Permissions](linux-luminarium/file-permissions.md)
+- [Environment Variables](linux-luminarium/environment-variables.md)
+- [Shell Scripting](linux-luminarium/shell-scripting.md)
+- [Process Control](linux-luminarium/process-control.md)
+- [Piping](linux-luminarium/piping.md)
+- [PATH Manipulation](linux-luminarium/path-manipulation.md)
 
-### Linux Luminarium
+### Playing with Programs (In Progress)
 
-| Topic | Status | Writeup |
-|-------|--------|---------|
-| File Permissions | ✅ Done | [View](linux-luminarium/file-permissions.md) |
-| Environment Variables | ✅ Done | [View](linux-luminarium/environment-variables.md) |
-| Shell Scripting | ✅ Done | [View](linux-luminarium/shell-scripting.md) |
-| Process Control | ✅ Done | [View](linux-luminarium/process-control.md) |
-| Piping Commands | ✅ Done | [View](linux-luminarium/piping.md) |
-| PATH Manipulation | ✅ Done | [View](linux-luminarium/path-manipulation.md) |
+- [Data Dealings](playing-with-programs/data-dealings.md)
 
-### Playing with Programs
+## Notes
 
-| Topic | Status | Writeup |
-|-------|--------|---------|
-| Data Dealings | ✅ Done | [View](playing-with-programs/data-dealings.md) |
-
-### Reverse Engineering
-| Topic | Status | Writeup |
-|-------|--------|---------|
-| Coming soon | 🔄 | - |
-
-### Binary Exploitation
-| Topic | Status | Writeup |
-|-------|--------|---------|
-| Coming soon | 🔄 | - |
-
----
-
-## Structure
-
-```
-pwn-college-writeups/
-├── linux-luminarium/
-├── playing-with-programs/
-├── reverse-engineering/
-├── binary-exploitation/
-└── scripts/
-```
-
----
-
-## Rules
-
-- No flags included
-- Focus on learning methodology
+- No flags or solutions included
 - Educational content only
-
----
-
-*By Cosmas Saidi*
