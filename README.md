@@ -19,6 +19,12 @@ My learning journey through pwn.college challenges.
 | Piping Commands | ✅ Done | [View](linux-luminarium/piping.md) |
 | PATH Manipulation | ✅ Done | [View](linux-luminarium/path-manipulation.md) |
 
+### Playing with Programs
+
+| Topic | Status | Writeup |
+|-------|--------|---------|
+| Data Dealings | ✅ Done | [View](playing-with-programs/data-dealings.md) |
+
 ### Reverse Engineering
 | Topic | Status | Writeup |
 |-------|--------|---------|
@@ -36,6 +42,7 @@ My learning journey through pwn.college challenges.
 ```
 pwn-college-writeups/
 ├── linux-luminarium/
+├── playing-with-programs/
 ├── reverse-engineering/
 ├── binary-exploitation/
 └── scripts/
