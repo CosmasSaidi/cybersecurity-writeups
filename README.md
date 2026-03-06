@@ -1,23 +1,22 @@
-# pwn.college Writeups
+# Training Writeups
 
-Learning notes from pwn.college challenges. Focus on methodology, not solutions.
+Technical learning notes from hands-on security training platforms.
 
-## Modules
+## pwn.college
 
-### Linux Luminarium (Complete)
+### Linux Luminarium
 
-- [File Permissions](linux-luminarium/file-permissions.md)
-- [Environment Variables](linux-luminarium/environment-variables.md)
-- [Shell Scripting](linux-luminarium/shell-scripting.md)
-- [Process Control](linux-luminarium/process-control.md)
-- [Piping](linux-luminarium/piping.md)
-- [PATH Manipulation](linux-luminarium/path-manipulation.md)
+- [File Permissions](linux-luminarium/file-permissions.md) - chmod, ownership, SUID/SGID
+- [Environment Variables](linux-luminarium/environment-variables.md) - PATH, variable manipulation
+- [Shell Scripting](linux-luminarium/shell-scripting.md) - Bash fundamentals
+- [Process Control](linux-luminarium/process-control.md) - Signals, job control
+- [Piping](linux-luminarium/piping.md) - stdin/stdout redirection
+- [PATH Manipulation](linux-luminarium/path-manipulation.md) - Exploitation techniques
 
-### Playing with Programs (In Progress)
+### Playing with Programs
 
-- [Data Dealings](playing-with-programs/data-dealings.md)
+- [Data Dealings](playing-with-programs/data-dealings.md) - Encoding, data formats
 
-## Notes
+---
 
-- No flags or solutions included
-- Educational content only
+Educational content only. No flags or solutions.
