@@ -6,7 +6,7 @@ Technical writeups and methodology documentation from hands-on security training
 
 ## 🎯 pwn.college
 
-**Focus Area:** Linux fundamentals, shell interaction, binary basics, and basic exploitation concepts.
+**Focus Area:** Linux fundamentals, shell interaction, binary basics, web fundamentals, and basic exploitation concepts.
 
 ### Skills Practiced
 
@@ -20,6 +20,8 @@ Technical writeups and methodology documentation from hands-on security training
 - Shell scripting fundamentals
 - Understanding binary and byte basics
 - Working with text transformation commands
+- HTTP request crafting and web communication
+- Virtual host enumeration
 
 ### Commands Used
 
@@ -30,6 +32,7 @@ Technical writeups and methodology documentation from hands-on security training
 | Text Processing | `head`, `tr`, `grep`, `printf` |
 | Process Management | `sleep`, `fg`, `bg`, `ps`, `jobs` |
 | Environment | `env`, `export`, `printenv` |
+| Web/HTTP | `nc`, `curl`, `curl -v`, `python requests` |
 
 ### Concepts Learned
 
@@ -41,6 +44,10 @@ Technical writeups and methodology documentation from hands-on security training
 - Basic shell scripting logic
 - Binary representation of data
 - Byte-level understanding of information
+- HTTP request structure and methods
+- Host header and virtual host routing
+- Manual HTTP crafting with netcat
+- Web automation with curl and Python
 
 ### Writeups
 
@@ -48,6 +55,12 @@ Technical writeups and methodology documentation from hands-on security training
 - [File Permissions](linux-luminarium/file-permissions.md) - chmod, ownership, SUID/SGID
 - [Environment Variables](linux-luminarium/environment-variables.md) - PATH, variable manipulation
 - [Shell Scripting](linux-luminarium/shell-scripting.md) - Bash fundamentals, shebang, command substitution
+- [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg, jobs, su
+- [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
+- [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
+
+#### Talking Web
+- [Web Fundamentals](linux-luminarium/web-fundamentals.md) - HTTP requests, netcat, curl, Host header, virtual hosts
 - [Process Control](linux-luminarium/process-control.md) - Background processes, fg/bg, jobs, su
 - [Piping](linux-luminarium/piping.md) - stdin/stdout redirection, command chaining
 - [PATH Manipulation](linux-luminarium/path-manipulation.md) - PATH hijacking techniques
