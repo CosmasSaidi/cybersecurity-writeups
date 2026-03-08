@@ -27,7 +27,7 @@ Many web applications expose endpoints that are not visible in the UI. Enumerati
 ### Command Executed
 
 ```bash
-dirb http://fakebank.thm
+dirb http://target-site
 ```
 
 ### Wordlist
@@ -37,8 +37,8 @@ dirb http://fakebank.thm
 
 ### Key Findings
 
-- `http://fakebank.thm/bank-deposit`
-- `http://fakebank.thm/images`
+- discovered unlinked or hidden web endpoints
+- identified routes that returned meaningful HTTP responses
 
 ### HTTP Status Codes Interpreted
 
@@ -46,18 +46,11 @@ dirb http://fakebank.thm
 - `301` → resource redirects
 - `404` → resource not found
 
-### Exploitation Result
+### Security Observation
 
-The hidden endpoint `/bank-deposit` allowed unauthorized deposits into arbitrary accounts.
+Enumeration can reveal sensitive functionality that should be protected by proper authorization.
 
-- Account targeted: `8881`
-- Action: deposited `$2000`
-
-This is a **business logic vulnerability** caused by missing authorization controls on sensitive functionality.
-
-### Flag Captured
-
-- `BANK-HACKED`
+This demonstrates a **business logic vulnerability** pattern caused by missing access-control validation on critical actions.
 
 ### Offensive Skills Learned
 
@@ -86,7 +79,7 @@ This is a **business logic vulnerability** caused by missing authorization contr
 
 ---
 
-## Practical Exercise — Defend FakeBank
+## Practical Exercise — Defend a Web Application
 
 ### Alert Investigated
 
@@ -96,7 +89,7 @@ This indicated automated path enumeration behavior against the web application.
 
 ### Threat Source
 
-- `32.122.195.63`
+- suspicious external source identified through SIEM telemetry
 
 ### Response Actions Taken
 
