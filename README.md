@@ -102,6 +102,11 @@ Hands-on learning in both offensive and defensive security workflows.
 - SIEM alert triage and SOC investigation workflow
 - Incident response actions (containment and hardening)
 - Basic WAF and rate-limiting defensive tuning
+- DNS querying and record analysis
+- Network connectivity testing with ICMP
+- HTTP header and method analysis
+- Intro analysis of HTML/JavaScript-driven web behavior
+- Recognizing exposure and injection risk patterns
 
 ### Concepts Learned
 
@@ -110,6 +115,10 @@ Hands-on learning in both offensive and defensive security workflows.
 - Business logic vulnerability identification
 - SOC and SIEM fundamentals
 - Defense-in-depth controls for web attacks
+- DNS records (A, MX, TXT, CNAME)
+- OSI model layering and network topology fundamentals
+- Cookie/session fundamentals in web applications
+- Sensitive data exposure, HTML injection, and XSS basics
 
 ### Tools Used
 
@@ -117,10 +126,15 @@ Hands-on learning in both offensive and defensive security workflows.
 - Web browser
 - Linux terminal
 - Basic SOC dashboard
+- nslookup
+- ping
+- Wireshark
+- Burp Suite
 
 ### Writeups
 
 - [Offensive & Defensive Security Intro](tryhackme/offensive-defensive-security-intro.md) - Directory enumeration, business-logic exploitation, SIEM-driven response and mitigation
+- [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP, HTTP, OSI model, web architecture, and intro web security concepts
 
 ---
 
