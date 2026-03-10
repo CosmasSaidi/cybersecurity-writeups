@@ -1,6 +1,7 @@
-# HTTP Requests
+# Web Fundamentals - Talking Web
 
 **Platform:** pwn.college  
+**Category:** Talking Web  
 **Date:** March 7, 2026
 
 ---

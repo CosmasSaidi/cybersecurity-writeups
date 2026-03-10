@@ -119,6 +119,14 @@ Hands-on learning in both offensive and defensive security workflows.
 - OSI model layering and network topology fundamentals
 - Cookie/session fundamentals in web applications
 - Sensitive data exposure, HTML injection, and XSS basics
+- Computer hardware architecture and components
+- Virtualization concepts and hypervisor types
+- Cloud computing fundamentals
+- Client-server architecture
+- Operating system security principles
+- Kernel vs user space separation
+- Endpoint security investigation
+- Boot process and BIOS/UEFI
 
 ### Tools Used
 
@@ -135,6 +143,7 @@ Hands-on learning in both offensive and defensive security workflows.
 
 - [Offensive & Defensive Security Intro](tryhackme/offensive-defensive-security-intro.md) - Directory enumeration, business-logic exploitation, SIEM-driven response and mitigation
 - [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP, HTTP, OSI model, web architecture, and intro web security concepts
+- [Computer Fundamentals & OS Security](tryhackme/computer-fundamentals-virtualization-os-security.md) - Hardware, virtualization, cloud, client-server, OS security, kernel vs user space
 
 ---
 
