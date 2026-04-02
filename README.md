@@ -169,6 +169,7 @@ Hands-on learning in both offensive and defensive security workflows.
 - [Web Fundamentals](tryhackme/web-fundamentals-networking-http-security.md) - DNS, ICMP, HTTP, OSI model, web architecture, and intro web security concepts
 - [Computer Fundamentals & OS Security](tryhackme/computer-fundamentals-virtualization-os-security.md) - Hardware, virtualization, cloud, client-server, OS security, kernel vs user space
 - [Security Fundamentals, Crypto & Recon Concepts](tryhackme/security-fundamentals-crypto-recon-programming.md) - CIA triad, cryptography, packet analysis, reconnaissance, encoding, and programming security concepts
+- [Practical Attack Lifecycle Summary](tryhackme/practical-attack-lifecycle-summary.md) - High-level exploitation-to-post-exploitation learning journal with defensive takeaways (no direct platform solutions)
 
 ---
 
