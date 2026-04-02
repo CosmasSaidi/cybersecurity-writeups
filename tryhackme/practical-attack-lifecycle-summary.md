@@ -92,6 +92,7 @@ A complete chain was practiced conceptually:
 - Metasploit Framework concepts
 - shell and advanced session models
 - John the Ripper (offline hash risk testing)
+- Hashcat (accelerated hash auditing in authorized lab contexts)
 - Kali/AttackBox workflows
 
 ---
