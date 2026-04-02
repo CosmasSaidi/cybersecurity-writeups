@@ -15,6 +15,7 @@ Document an end-to-end offensive-security learning workflow from initial access 
 
 ### Techniques Studied
 - vulnerability-based entry simulation
+- SMB exploit-class exposure modeling in lab environments (MS17-010/EternalBlue class)
 - payload/handler coordination fundamentals
 - session establishment and validation
 
@@ -70,6 +71,10 @@ A complete chain was practiced conceptually:
 5. credential access simulation
 6. offline password risk assessment
 7. objective/flag retrieval in training context
+
+### Lab Context Notes
+- Metasploitable-style hosts were used to reinforce safe service-enumeration and authentication testing workflows.
+- This writeup intentionally omits exploit parameters, target-specific answers, and challenge flags.
 
 ---
 
