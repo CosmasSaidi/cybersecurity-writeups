@@ -1,6 +1,77 @@
 # Cybersecurity Learning Journey
 
-Technical writeups and methodology documentation from hands-on security training platforms and **self-directed independent lab work** (VulnVault).
+Technical writeups and methodology documentation from hands-on security training platforms, Internet infrastructure coursework, and **self-directed independent lab work** (VulnVault).
+
+---
+
+## 🌐 Internet Society Learning Platform
+
+**Focus Area:** computer networking, Internet architecture, Internet governance, trust and safety, and community network readiness.
+
+### Completed / Participated Courses
+
+- Fundamentals of Designing and Deploying Computer Networks
+- Internet Governance
+- What the Internet Needs to Exist
+- What the Internet Needs to Thrive
+- Introduction to Online Trust and Safety
+- Community Network Readiness Assessment Program
+- Community Networking Concepts and Deployment Readiness
+
+### Skills Practiced
+
+- Computer network design and deployment
+- Internet infrastructure and architecture
+- Community and enterprise networking concepts
+- Internet governance and policy
+- Online trust, safety, and resilience
+- Network sustainability and operational best practices
+- Connectivity planning and network readiness assessment
+
+### Concepts Learned
+
+- Designing and deploying computer networks
+- Internet governance and policy basics
+- Trust, safety, and resilience in Internet systems
+- Community network readiness and sustainability
+- Connectivity planning for real-world deployments
+
+### Practical Value
+
+- Stronger context for how enterprise and community networks are built and maintained
+- Better understanding of how Internet systems, policy, and trust requirements shape deployment choices
+- Clearer planning skills for deployment readiness, operational sustainability, and resilient connectivity
+
+---
+
+## 🧭 Cisco Networking Academy
+
+**Focus Area:** hands-on network design, Packet Tracer simulation, and core routing and switching concepts.
+
+### Skills Practiced
+
+- Network topology design
+- Router and switch configuration
+- IP addressing and subnetting
+- VLAN implementation
+- Static and dynamic routing concepts
+- DHCP and DNS configuration
+- Network troubleshooting and diagnostics
+- End-to-end network deployment simulations
+
+### Concepts Learned
+
+- TCP/IP networking fundamentals
+- Routing and switching basics
+- Enterprise network segmentation with VLANs
+- Address planning, subnetting, and service assignment
+- Simulation-based validation with Cisco Packet Tracer
+
+### Practical Value
+
+- Reinforced operational networking skills that support later enterprise, cloud, and security work
+- Improved ability to reason about network behavior before applying security controls
+- Built a repeatable workflow for topology design, service configuration, and network troubleshooting
 
 ---
 
@@ -244,6 +315,12 @@ Successfully designed, deployed, tested, and fully documented a complete attack-
 
 ## 🛠️ Cross-Platform Skills Developed
 
+### Networking & Internet Infrastructure
+- Network design and deployment planning
+- TCP/IP, subnetting, and routing basics
+- VLANs, DHCP, DNS, and topology simulation
+- Internet governance, trust, safety, and resilience concepts
+
 ### Linux & System Fundamentals
 - Command line navigation and automation
 - File and permission management
@@ -278,6 +355,7 @@ Successfully designed, deployed, tested, and fully documented a complete attack-
 
 | Tool | Purpose | Usage |
 |------|---------|-------|
+| Cisco Packet Tracer | Network topology design and simulation | Internet Society, Cisco Networking Academy |
 | Linux CLI | System interaction, command-line operations | All platforms |
 | Bash Shell | Scripting, automation, command execution | All platforms |
 | Browser DevTools | Web security testing, request inspection | TryHackMe, VulnVault |
@@ -295,7 +373,9 @@ Successfully designed, deployed, tested, and fully documented a complete attack-
 
 ## 📈 Current Focus Areas
 
+- **Network engineering growth:** Linux systems administration, virtualization, enterprise infrastructure, Active Directory, and cloud fundamentals
 - **Platform-based learning:** TryHackMe, pwn.college, Hack The Box Academy
+- **Internet infrastructure:** Internet Society and Cisco Networking Academy coursework
 - **Self-directed lab work:** VulnVault independent research and exploitation
 - **Advanced web security:** XSS, SQLi, file uploads, RCE, post-exploitation
 - **System enumeration:** User discovery, privilege escalation vectors, credential hunting
@@ -305,11 +385,11 @@ Successfully designed, deployed, tested, and fully documented a complete attack-
 
 ## 🎓 Learning Methodology
 
-**Platform-Based:** Structured learning paths on established CTF and security training platforms provide guided progression through fundamental concepts with validated solutions.
+**Platform-Based:** Structured learning paths on established CTF, networking, and Internet training platforms provide guided progression through fundamental concepts with validated solutions.
 
 **Self-Directed Lab:** Independent vulnerability research, exploitation, and documentation validates practical understanding and demonstrates autonomous security research capability.
 
-**Cross-Platform Integration:** Combining platform-guided learning with independent lab work ensures both structured knowledge and hands-on mastery.
+**Cross-Platform Integration:** Combining platform-guided learning with independent lab work ensures both structured knowledge and hands-on mastery across networking, infrastructure, and security.
 
 ---
 
