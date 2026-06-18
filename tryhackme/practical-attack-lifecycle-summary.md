@@ -1,7 +1,7 @@
 # Practical Attack Lifecycle Summary (Hands-On Learning)
 
 **Platform context:** TryHackMe-style labs and private practice environments  
-**Role focus:** Security Analyst / Penetration Tester
+**Role focus:** Junior Cybersecurity Engineer / Network Security Analyst
 
 ---
 
