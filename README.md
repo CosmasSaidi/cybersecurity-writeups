@@ -85,6 +85,11 @@ Technical writeups and methodology documentation from hands-on security training
 - Built a repeatable workflow for topology design, service configuration, and network troubleshooting
 - Strengthened practical enterprise LAN deployment capability using Layer 2/Layer 3 switching, trunking, SVIs, and inter-VLAN routing
 
+### Writeups
+
+- [Cisco Packet Tracer Enterprise LAN Design and Segmentation](cisco-networking/enterprise-lan-design-packet-tracer.md)
+  - Multi-switch enterprise LAN design, VLAN segmentation, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, ARP/ICMP validation, and troubleshooting workflow
+
 ---
 
 ## 🎯 pwn.college
