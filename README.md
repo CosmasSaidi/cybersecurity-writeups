@@ -59,6 +59,17 @@ Technical writeups and methodology documentation from hands-on security training
 - Network troubleshooting and diagnostics
 - End-to-end network deployment simulations
 
+### Weekly Enterprise Packet Tracer Achievement
+
+- Designed multi-switch enterprise LAN topologies with access switches connected to a Layer 3 switch.
+- Implemented departmental segmentation using VLANs and structured device naming conventions.
+- Configured hostnames, interfaces, IP addressing, and baseline device management on Layer 2 and Layer 3 switches.
+- Built IEEE 802.1Q trunk links across switches and extended VLANs across the topology.
+- Implemented Switch Virtual Interfaces (SVIs) and inter-VLAN routing on Layer 3 switching infrastructure.
+- Validated MAC learning behavior, frame forwarding, broadcast-domain boundaries, and end-to-end communication.
+- Performed ARP and ICMP verification (ping) and applied basic fault-isolation troubleshooting.
+- Documented enterprise networking workflow covering TCP/IP, IPv4 addressing, subnetting, switching, routing, and VLAN architecture.
+
 ### Concepts Learned
 
 - TCP/IP networking fundamentals
@@ -72,6 +83,7 @@ Technical writeups and methodology documentation from hands-on security training
 - Reinforced operational networking skills that support later enterprise, cloud, and security work
 - Improved ability to reason about network behavior before applying security controls
 - Built a repeatable workflow for topology design, service configuration, and network troubleshooting
+- Strengthened practical enterprise LAN deployment capability using Layer 2/Layer 3 switching, trunking, SVIs, and inter-VLAN routing
 
 ---
 
