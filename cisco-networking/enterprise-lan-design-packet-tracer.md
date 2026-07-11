@@ -1,105 +1,130 @@
-# Cisco Packet Tracer Enterprise LAN Design and Segmentation
+# Cisco Packet Tracer: Enterprise Networking Skills and Knowledge
 
 ## Overview
 
-This writeup documents weekly hands-on progress building and validating enterprise-style LAN infrastructure in Cisco Packet Tracer. The focus was practical network design, segmentation, Layer 2 and Layer 3 switching, and connectivity troubleshooting.
+This writeup documents comprehensive hands-on practice with Cisco Packet Tracer, building practical skills in designing, configuring, and troubleshooting enterprise-style computer networks. Through practical lab work, I developed practical competency in network infrastructure, switching, routing, segmentation, and enterprise LAN architecture.
 
-## Scope
+## Learning Scope
 
 - Build multi-switch enterprise LAN topologies
 - Segment departmental traffic with VLANs
 - Configure trunking and inter-VLAN routing
+- Implement hierarchical network architecture
+- Configure dynamic and static routing
+- Implement Network Address Translation (NAT)
 - Validate end-to-end communication and switching behavior
 - Perform baseline troubleshooting and fault isolation
 
-## Enterprise Network Design
+## Networking Fundamentals
 
-- Built enterprise LAN topology with multiple access switches uplinked to a Layer 3 switch.
-- Structured logical segmentation by department using dedicated VLANs.
-- Applied consistent device naming for maintainable network documentation.
+- Configured network devices, including routers, Layer 2 switches, Layer 3 switches, and end devices.
+- Assigned IP addresses and verified network connectivity.
+- Understood MAC addressing, ARP, and Ethernet communication.
+- Performed network troubleshooting using ICMP (ping) and other basic diagnostic techniques.
+- Configured hostnames, interfaces, and IPv4 addressing on all device types.
 
-## Device Configuration
+## Switching Technologies
 
-Configured and validated:
+- Configured Layer 2 switching environments.
+- Built multi-switch network topologies using a star architecture.
+- Learned MAC address learning and switch forwarding tables.
+- Configured basic switch security, including hostnames and console access.
+- Understood broadcast domains and how switches forward network traffic.
+- Validated frame forwarding decisions and MAC address table population.
 
-- Cisco Layer 2 switches
-- Cisco Layer 3 switches
-- End-user workstations
+## VLANs and Network Segmentation
 
-Performed:
+- Created and managed Virtual Local Area Networks (VLANs) for departmental isolation.
+- Assigned switch ports to specific VLANs based on organizational structure.
+- Configured IEEE 802.1Q trunk links between switches for VLAN transport.
+- Implemented Switch Virtual Interfaces (SVIs) on Layer 3 switches.
+- Configured Inter-VLAN Routing to enable communication between different VLANs.
+- Applied subnetting concepts to map VLANs to dedicated IP subnets.
+- Extended VLANs across the switched enterprise topology for seamless departmental access.
+- Organized departmental networks (Administration, Finance, Students, Guests) into separate VLANs.
 
-- Hostname configuration
-- Interface configuration
-- IPv4 addressing
-- Basic management setup
-- Connectivity verification
+## Enterprise LAN Design
 
-## VLAN and Trunking Implementation
+- Designed hierarchical enterprise LAN topologies using Layer 2 and Layer 3 switches.
+- Built network architectures consisting of core routers, Layer 3 distribution switches, Layer 2 access switches, and departmental VLANs.
+- Organized multiple departmental networks into separate VLANs following enterprise segmentation principles.
+- Applied scalable network design patterns following enterprise networking best practices.
+- Developed understanding of hierarchical network design and enterprise infrastructure architecture.
 
-Implemented segmentation and transport controls:
+## Routing Technologies
 
-- Created multiple VLANs for departmental isolation
-- Assigned access ports to the correct VLANs
-- Configured IEEE 802.1Q trunk links between switches
-- Extended VLANs across the switched enterprise topology
+- Understood directly connected routes and routing table behavior.
+- Configured static routes for predictable routing between different networks.
+- Configured default routes for traffic destined to unknown destinations.
+- Learned Open Shortest Path First (OSPF) as a dynamic routing protocol.
+- Understood automatic route exchange between routers using OSPF.
 
-## Layer 3 Switching and Inter-VLAN Routing
+## Network Address Translation (NAT)
 
-- Created Switch Virtual Interfaces (SVIs) on the Layer 3 switch.
-- Assigned gateway IPs per VLAN through SVIs.
-- Enabled and validated inter-VLAN routing for controlled cross-segment communication.
-
-## Switching and Forwarding Behavior
-
-Observed and validated core switching concepts:
-
-- MAC address learning
-- MAC address table population
-- Frame forwarding decisions
-- Broadcast-domain boundaries under VLAN segmentation
-- Layer 2 switching and Layer 3 switching behavior
+- Learned the purpose and role of Network Address Translation (NAT) in enterprise networks.
+- Understood how private IP addresses are translated for communication with external networks.
+- Configured basic NAT scenarios in simulation environments.
 
 ## Connectivity Validation and Troubleshooting
 
-Validated and troubleshot using:
+- Validated and troubleshot using ICMP testing (ping) and ARP resolution checks.
+- Performed end-to-end host communication tests across segmented networks.
+- Applied basic fault isolation for addressing issues, VLAN assignment problems, and trunking misconfigurations.
+- Validated MAC address learning, frame forwarding behavior, and broadcast-domain boundaries.
+- Tested Layer 2 and Layer 3 switching behavior in multi-switch topologies.
 
-- ICMP testing (ping)
-- ARP resolution checks
-- End-to-end host communication tests
-- Basic fault isolation for addressing, VLAN assignment, and trunking issues
+## Topologies Built and Validated
 
-## Topologies Built
+- Star topology with central Layer 3 switch
+- Multi-switch enterprise LAN topology with hierarchical design
+- Department-based segmented network design using VLANs
+- Enterprise network architectures with core, distribution, and access layers
+- Routed networks with static and dynamic routing
 
-- Star topology
-- Multi-switch enterprise LAN topology
-- Department-based segmented network design
+## Technical Skills and Competencies Acquired
 
-## Enterprise Networking Competencies Strengthened
-
-- TCP/IP networking
-- IPv4 addressing and subnetting
-- Enterprise LAN design and segmentation
-- Routing and switching fundamentals
-- VLAN architecture and trunking
+**Core Networking:**
+- TCP/IP networking fundamentals
+- IPv4 addressing and IP subnetting
+- Network troubleshooting methodology
 - Network documentation discipline
-- Practical network troubleshooting
+
+**Switching and Segmentation:**
+- Layer 2 switching configuration and behavior
+- Layer 3 switching and Inter-VLAN routing
+- VLAN creation and management
+- IEEE 802.1Q trunking
+- Switch Virtual Interfaces (SVIs)
+- Enterprise LAN design and architecture
+- Broadcast domain management
+
+**Routing:**
+- Static routing configuration
+- Default routing
+- Dynamic routing with OSPF
+- Routing table analysis and troubleshooting
+
+**Infrastructure:**
+- Network Address Translation (NAT) concepts and configuration
+- Hierarchical enterprise network architecture
+- Scalable network design principles
 
 ## Technologies and Tools Used
 
-- Cisco Packet Tracer
-- Cisco Layer 2 switches
-- Cisco Layer 3 switches
-- VLANs
-- IEEE 802.1Q trunking
-- Switch Virtual Interfaces (SVIs)
-- Inter-VLAN routing
-- TCP/IP
-- IPv4 addressing
-- ARP
-- ICMP
-- MAC address tables
-- Enterprise LAN architecture
+- **Simulation:** Cisco Packet Tracer
+- **Devices:** Routers, Layer 2 switches, Layer 3 switches, end-user workstations
+- **Technologies:** VLANs, IEEE 802.1Q trunking, Switch Virtual Interfaces (SVIs), Inter-VLAN routing, static routing, OSPF, NAT, TCP/IP, IPv4 addressing, ARP, ICMP
+- **Protocols:** TCP/IP, ICMP (ping), ARP, OSPF
+- **Methods:** MAC address learning, frame forwarding, network troubleshooting, connectivity validation
 
-## Outcome
+## Practical Value and Outcomes
 
-This lab cycle improved operational confidence in enterprise switching, segmentation, and routing workflows, and strengthened practical readiness for network security and infrastructure-focused roles.
+- Developed operational confidence in enterprise switching, segmentation, and routing workflows.
+- Strengthened practical readiness for network security, infrastructure, and SOC operations roles.
+- Built repeatable methodology for enterprise LAN design, configuration validation, and troubleshooting.
+- Reinforced fundamental operational networking skills that support cloud, enterprise, and security-focused work.
+- Improved ability to reason about network behavior and security implications before applying controls.
+
+---
+
+*This comprehensive lab work demonstrates practical mastery of enterprise networking concepts through hands-on Cisco Packet Tracer simulation and direct implementation of real-world network design patterns.*

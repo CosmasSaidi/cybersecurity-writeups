@@ -44,51 +44,99 @@ Technical writeups and methodology documentation from hands-on security training
 
 ---
 
-## 🧭 Cisco Networking Academy
+## 🧭 Cisco Packet Tracer
 
-**Focus Area:** hands-on network design, Packet Tracer simulation, and core routing and switching concepts.
+**Focus Area:** Enterprise network design, configuration, and troubleshooting through hands-on Packet Tracer simulation.
 
 ### Skills Practiced
 
-- Network topology design
+- Network fundamentals (MAC addressing, ARP, Ethernet, ICMP)
+- Layer 2 switching configuration and behavior
+- Layer 3 switching and inter-VLAN routing
+- VLAN creation, management, and IEEE 802.1Q trunking
+- Switch Virtual Interfaces (SVIs) and routing
 - Router and switch configuration
-- IP addressing and subnetting
-- VLAN implementation
-- Static and dynamic routing concepts
-- DHCP and DNS configuration
-- Network troubleshooting and diagnostics
+- IP addressing, IPv4 subnetting, and address planning
+- Static and dynamic routing (OSPF)
+- Network Address Translation (NAT)
+- Enterprise LAN topology design and hierarchical architecture
+- Network troubleshooting and connectivity validation
+- ARP and ICMP diagnostic techniques
 - End-to-end network deployment simulations
 
-### Weekly Enterprise Packet Tracer Achievement
+### Enterprise Networking Achievements
 
-- Designed multi-switch enterprise LAN topologies with access switches connected to a Layer 3 switch.
-- Implemented departmental segmentation using VLANs and structured device naming conventions.
-- Configured hostnames, interfaces, IP addressing, and baseline device management on Layer 2 and Layer 3 switches.
-- Built IEEE 802.1Q trunk links across switches and extended VLANs across the topology.
-- Implemented Switch Virtual Interfaces (SVIs) and inter-VLAN routing on Layer 3 switching infrastructure.
-- Validated MAC learning behavior, frame forwarding, broadcast-domain boundaries, and end-to-end communication.
-- Performed ARP and ICMP verification (ping) and applied basic fault-isolation troubleshooting.
-- Documented enterprise networking workflow covering TCP/IP, IPv4 addressing, subnetting, switching, routing, and VLAN architecture.
+**Networking Fundamentals:**
+- Configured network devices including routers, Layer 2 switches, Layer 3 switches, and end devices
+- Assigned IP addresses and verified network connectivity
+- Understood MAC addressing, ARP, and Ethernet communication protocols
+- Performed network troubleshooting using ICMP (ping) and basic diagnostic techniques
 
-### Concepts Learned
+**Switching Technologies:**
+- Configured Layer 2 switching environments with multi-switch topologies
+- Built star-architecture networks with multiple access switches
+- Learned MAC address learning, switch forwarding tables, and broadcast domains
+- Configured basic switch security and understood frame forwarding decisions
 
-- TCP/IP networking fundamentals
-- Routing and switching basics
-- Enterprise network segmentation with VLANs
-- Address planning, subnetting, and service assignment
-- Simulation-based validation with Cisco Packet Tracer
+**VLANs and Network Segmentation:**
+- Created and managed Virtual Local Area Networks (VLANs) for departmental isolation
+- Assigned switch ports to VLANs and configured IEEE 802.1Q trunk links
+- Implemented Switch Virtual Interfaces (SVIs) on Layer 3 switches
+- Configured Inter-VLAN Routing for controlled cross-segment communication
+- Applied subnetting concepts to map VLANs to dedicated IP subnets
+- Organized departmental networks (Administration, Finance, Students, Guests) into separate VLANs
+
+**Enterprise LAN Design:**
+- Designed hierarchical enterprise LAN topologies with Layer 2 and Layer 3 switches
+- Built scalable network architectures with core routers, distribution switches, and access switches
+- Applied enterprise networking principles for multi-department segmentation
+- Developed understanding of hierarchical network design and enterprise infrastructure
+
+**Routing Technologies:**
+- Understood directly connected routes and routing table behavior
+- Configured static routes and default routes for network communication
+- Learned Open Shortest Path First (OSPF) as a dynamic routing protocol
+- Understood automatic route exchange between routers using dynamic routing
+
+**Network Address Translation (NAT):**
+- Learned the purpose and role of NAT in enterprise networks
+- Understood how private IP addresses translate for external network communication
+
+### Technical Skills Acquired
+
+- Cisco Packet Tracer
+- Enterprise LAN Design
+- TCP/IP Networking
+- IPv4 Addressing and Subnetting
+- Layer 2 Switching
+- Layer 3 Switching
+- VLAN Configuration
+- IEEE 802.1Q Trunking
+- Switch Virtual Interfaces (SVIs)
+- Inter-VLAN Routing
+- Static Routing
+- Default Routing
+- OSPF Dynamic Routing
+- Network Address Translation (NAT)
+- ARP and ICMP
+- Network Troubleshooting
+- Network Documentation
+- Enterprise Network Design Principles
+- Hierarchical Network Architecture
+- Router and Switch Configuration
 
 ### Practical Value
 
-- Reinforced operational networking skills that support later enterprise, cloud, and security work
+- Developed operational confidence in enterprise switching, segmentation, and routing workflows
+- Strengthened practical readiness for network security, infrastructure, and SOC operations roles
+- Built repeatable methodology for enterprise LAN design, configuration, and troubleshooting
 - Improved ability to reason about network behavior before applying security controls
-- Built a repeatable workflow for topology design, service configuration, and network troubleshooting
-- Strengthened practical enterprise LAN deployment capability using Layer 2/Layer 3 switching, trunking, SVIs, and inter-VLAN routing
+- Reinforced fundamental networking skills supporting cloud, enterprise, and security work
 
 ### Writeups
 
-- [Cisco Packet Tracer Enterprise LAN Design and Segmentation](cisco-networking/enterprise-lan-design-packet-tracer.md)
-  - Multi-switch enterprise LAN design, VLAN segmentation, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, ARP/ICMP validation, and troubleshooting workflow
+- [Cisco Packet Tracer: Enterprise Networking Skills and Knowledge](cisco-networking/enterprise-lan-design-packet-tracer.md)
+  - Comprehensive documentation of enterprise LAN design, switching, routing, VLAN segmentation, Layer 2/Layer 3 switching, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, static/dynamic routing, NAT, and network troubleshooting
 
 ---
 
