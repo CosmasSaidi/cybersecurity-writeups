@@ -50,61 +50,73 @@ Technical writeups and methodology documentation from hands-on security training
 
 ### Skills Practiced
 
-- Network fundamentals (MAC addressing, ARP, Ethernet, ICMP)
-- Layer 2 switching configuration and behavior
-- Layer 3 switching and inter-VLAN routing
-- VLAN creation, management, and IEEE 802.1Q trunking
-- Switch Virtual Interfaces (SVIs) and routing
-- Router and switch configuration
-- IP addressing, IPv4 subnetting, and address planning
-- Static and dynamic routing (OSPF)
-- Network Address Translation (NAT)
-- Enterprise LAN topology design and hierarchical architecture
-- Network troubleshooting and connectivity validation
-- ARP and ICMP diagnostic techniques
-- End-to-end network deployment simulations
+- Network device configuration using routers, Layer 2 switches, Layer 3 switches, wireless access points, wireless routers, DHCP servers, DNS servers, HTTP servers, desktops, laptops, and smartphones
+- Hostname configuration, interface configuration, IP assignment, device management, and connectivity verification
+- MAC addressing, ARP, Ethernet communication, ICMP testing, and baseline network troubleshooting
+- Layer 2 switching, Layer 3 switching, MAC learning, switch forwarding tables, and broadcast-domain analysis
+- VLAN creation, port assignment, IEEE 802.1Q trunking, SVIs, and Inter-VLAN routing
+- Hierarchical enterprise LAN design with core routers, distribution switches, and access switches
+- Static routing, default routing, OSPF, routing tables, route selection, and inter-network communication
+- NAT concepts and private-to-public addressing translation
+- Wireless LAN concepts, SSID configuration, wireless client connectivity, and guest wireless segmentation
+- DHCP scope configuration, DNS name resolution, and HTTP server deployment
+- Network documentation, topology design, and troubleshooting workflows
 
 ### Enterprise Networking Achievements
 
 **Networking Fundamentals:**
-- Configured network devices including routers, Layer 2 switches, Layer 3 switches, and end devices
-- Assigned IP addresses and verified network connectivity
-- Understood MAC addressing, ARP, and Ethernet communication protocols
-- Performed network troubleshooting using ICMP (ping) and basic diagnostic techniques
+- Configured routers, Layer 2 switches, Layer 3 switches, wireless infrastructure, servers, and end devices
+- Assigned IP addresses and verified connectivity across wired and wireless devices
+- Understood MAC addressing, ARP, Ethernet communication, and default gateway behavior
+- Performed troubleshooting using ICMP (ping), interface checks, and ARP validation
 
 **Switching Technologies:**
-- Configured Layer 2 switching environments with multi-switch topologies
-- Built star-architecture networks with multiple access switches
+- Configured Layer 2 and Layer 3 switching environments with multi-switch topologies
+- Built star-architecture and hierarchical enterprise LANs
 - Learned MAC address learning, switch forwarding tables, and broadcast domains
-- Configured basic switch security and understood frame forwarding decisions
+- Configured basic switch security and console access
 
 **VLANs and Network Segmentation:**
-- Created and managed Virtual Local Area Networks (VLANs) for departmental isolation
+- Created and managed VLANs for departmental isolation
 - Assigned switch ports to VLANs and configured IEEE 802.1Q trunk links
-- Implemented Switch Virtual Interfaces (SVIs) on Layer 3 switches
+- Implemented SVIs on Layer 3 switches
 - Configured Inter-VLAN Routing for controlled cross-segment communication
 - Applied subnetting concepts to map VLANs to dedicated IP subnets
-- Organized departmental networks (Administration, Finance, Students, Guests) into separate VLANs
+- Organized departmental networks (Administration, Finance, Students, Guests, Server Network)
 
 **Enterprise LAN Design:**
-- Designed hierarchical enterprise LAN topologies with Layer 2 and Layer 3 switches
-- Built scalable network architectures with core routers, distribution switches, and access switches
-- Applied enterprise networking principles for multi-department segmentation
-- Developed understanding of hierarchical network design and enterprise infrastructure
+- Designed hierarchical enterprise LAN topologies with core routers, provider edge routers, Layer 3 distribution switches, and Layer 2 access switches
+- Built scalable architectures with multiple access switches and departmental VLANs
+- Applied enterprise networking principles for secure communication between departments
+- Developed understanding of scalable enterprise infrastructure
 
 **Routing Technologies:**
 - Understood directly connected routes and routing table behavior
-- Configured static routes and default routes for network communication
-- Learned Open Shortest Path First (OSPF) as a dynamic routing protocol
-- Understood automatic route exchange between routers using dynamic routing
+- Configured static routes, default routes, and OSPF dynamic routing
+- Understood route selection and inter-network communication
 
 **Network Address Translation (NAT):**
 - Learned the purpose and role of NAT in enterprise networks
-- Understood how private IP addresses translate for external network communication
+- Understood internal-to-external address translation for Internet access
+
+**Enterprise Services:**
+- Configured DHCP scopes for automatic IP allocation, subnet masks, gateways, and DNS settings
+- Configured DNS name resolution and HTTP server services
+- Verified end-user communication to internal services
+
+**Wireless Networking:**
+- Configured wireless access points and wireless routers
+- Worked with SSIDs, wireless security, client connectivity, and guest wireless segmentation
+- Integrated wireless and wired enterprise network segments
 
 ### Technical Skills Acquired
 
 - Cisco Packet Tracer
+- Cisco 2911 Routers
+- Cisco 3560 Layer 3 Switches
+- Cisco 2960 Layer 2 Switches
+- Wireless Access Points and Wireless Routers
+- DHCP, DNS, and HTTP Servers
 - Enterprise LAN Design
 - TCP/IP Networking
 - IPv4 Addressing and Subnetting
@@ -118,6 +130,7 @@ Technical writeups and methodology documentation from hands-on security training
 - Default Routing
 - OSPF Dynamic Routing
 - Network Address Translation (NAT)
+- Wireless Networking and Guest Segmentation
 - ARP and ICMP
 - Network Troubleshooting
 - Network Documentation
@@ -127,16 +140,16 @@ Technical writeups and methodology documentation from hands-on security training
 
 ### Practical Value
 
-- Developed operational confidence in enterprise switching, segmentation, and routing workflows
-- Strengthened practical readiness for network security, infrastructure, and SOC operations roles
-- Built repeatable methodology for enterprise LAN design, configuration, and troubleshooting
+- Developed operational confidence in enterprise switching, segmentation, routing, and service deployment workflows
+- Strengthened practical readiness for network security, infrastructure, systems administration, and SOC operations roles
+- Built repeatable methodology for enterprise LAN design, configuration, validation, and troubleshooting
 - Improved ability to reason about network behavior before applying security controls
 - Reinforced fundamental networking skills supporting cloud, enterprise, and security work
 
 ### Writeups
 
 - [Cisco Packet Tracer: Enterprise Networking Skills and Knowledge](cisco-networking/enterprise-lan-design-packet-tracer.md)
-  - Comprehensive documentation of enterprise LAN design, switching, routing, VLAN segmentation, Layer 2/Layer 3 switching, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, static/dynamic routing, NAT, and network troubleshooting
+  - Comprehensive documentation of enterprise LAN design, switching, routing, VLAN segmentation, Layer 2/Layer 3 switching, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, static/dynamic routing, NAT, wireless networking, DHCP, DNS, HTTP services, and troubleshooting
 
 ---
 
